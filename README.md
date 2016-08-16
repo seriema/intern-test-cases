@@ -1,2 +1,3 @@
 # intern-test-cases
-Showcase Intern bugs or usages
+Showcase [Intern](https://theintern.github.io) bugs or usages.
+

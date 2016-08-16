@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test page</title>
+	</head>
+	<body>
+		<div class="bar">Foo</div>
+
+		<script>
+			function clickHandler(event) {
+				var el = event.target;
+				el.innerHTML = event.ctrlKey;
+			}
+
+			var el = document.getElementsByClassName('bar');
+			el[0].addEventListener('click', clickHandler, false);
+		</script>
+	</body>
+</html>
