@@ -36,7 +36,7 @@ define({
 	suites: [ 'app/tests/unit/*' ],
 
 	// Functional test suite(s) to execute against each browser once unit tests are completed
-	functionalSuites: [ /* 'app/tests/functional' */ ],
+	functionalSuites: [ 'tests/functional/*' ],
 
 	// A regular expression matching URLs to files that should not be included in code coverage analysis. Set to `true`
 	// to completely disable code coverage.
