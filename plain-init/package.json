@@ -1,0 +1,14 @@
+{
+  "name": "plain-init",
+  "version": "1.0.0",
+  "description": "Showcase that `intern init` generates a faulty \"functional tests\" setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "intern run -w"
+  },
+  "author": "John-Philip Johansson <seriema@gmail.com> (http://johansson.jp/)",
+  "license": "MIT",
+  "devDependencies": {
+    "intern": "^3.3.1"
+  }
+}
