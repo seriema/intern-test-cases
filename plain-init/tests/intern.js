@@ -21,7 +21,10 @@ define({
 
 	// Name of the tunnel class to use for WebDriver tests.
 	// See <https://theintern.github.io/intern/#option-tunnel> for built-in options
-	tunnel: 'NullTunnel',
+    tunnel: 'SeleniumTunnel',
+    tunnelOptions: {
+        drivers: [ 'chrome' ]
+    },
 
 	// Configuration options for the module loader; any AMD configuration options supported by the AMD loader in use
 	// can be used here.
