@@ -1,0 +1,14 @@
+{
+  "name": "ff48-load",
+  "version": "1.0.0",
+  "description": "Showcase FF48 with marionette",
+  "main": "index.js",
+  "scripts": {
+    "test": "intern run -w"
+  },
+  "author": "John-Philip Johansson <seriema@gmail.com> (http://johansson.jp/)",
+  "license": "MIT",
+  "devDependencies": {
+    "intern": "^3.3.1"
+  }
+}
